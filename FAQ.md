@@ -16,4 +16,4 @@ Contribution guidelines will be added shortly. In the meantime, fork this repo, 
 
 Github does not have an easy way to steer users to the latest active fork. Several experiments have been done that show users get confused with the 'forked from username/repositoryname' link at the top of a forked repository, and often create issues or PRs against the original, inactive repository. Splitting this repository was done intentionally to keep the collaboration in an active repository.
 
-[create a new issue]: /PowerBI-ThemeTemplates/issues/new
+[create a new issue]: https://github.com/MattRudy/PowerBI-ThemeTemplates/issues/new
