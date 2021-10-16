@@ -76,7 +76,7 @@ If you have a question or find an issue, you can [Create a new issue].
 1. pre-built color themes (You can find these in [Microsoft's official themes gallery])
 1. Theme samples to solve specific problems such as adding outlines or hiding visual headers on every visual (You can find these samples in [mattrudy/PowerBIThemeSolutions])
 
-[View the FAQ]: /PowerBI-ThemeTemplates/FAQ.md
-[Create a new issue]: /PowerBI-ThemeTemplates/issues/new
+[View the FAQ]: /FAQ.md
+[Create a new issue]: https://github.com/MattRudy/PowerBI-ThemeTemplates/issues/new
 [Microsoft's official themes gallery]: https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery
 [mattrudy/PowerBIThemeSolutions]: https://github.com/MattRudy/PowerBIThemeSolutions
