@@ -2,7 +2,7 @@
     "type": "object",
     "properties": {
       "name": {"type": "string", "minLength": 1},
-      "visualStyles": {"type": "string", "minLength": 1}
+      "visualStyles": {"type": "object"}
     },
     "required": ["name","visualStyles"],
     "additionalProperties": true
