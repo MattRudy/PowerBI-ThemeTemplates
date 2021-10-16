@@ -20,5 +20,5 @@ jobs:
       - name: Validate JSON with Glob
         uses: nhalstead/validate-json-action@0.1.3
         with:
-          TEST_SCHEMA: ./tests/testSchema.json
+          schema: ./tests/testSchema.json
           jsons: ./*.json
