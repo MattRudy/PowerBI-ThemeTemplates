@@ -51,6 +51,7 @@
 					"transparency": 20
 				}],
 				"ribbonChart": [{
+					"seriesGapRatio": 15,
 					"colorBands": true,
 					"bandsTransparency": 20,
 					"showBorder": true
