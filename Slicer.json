@@ -7,7 +7,7 @@
 					"outlineColor": { "solid": { "color": "#444444"}},
 					"outlineWeight": 1,
 					"orientation": "vertical",
-					"responsive": true
+					"keepLayerOrder": true
 				}],
 				"data": [{
 					"mode": "Basic",

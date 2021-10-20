@@ -36,7 +36,9 @@
 				}],
 				"goals": [{
 					"showGoal": true,
-					"showDistance": true
+					"goalFontColor": { "solid": { "color": "#E044A7" } },
+					"showDistance": true,
+					"distanceFontColor": { "solid": { "color": "#744EC2" } }
 				}],
 				"status": [{
 					"direction": "Negative",

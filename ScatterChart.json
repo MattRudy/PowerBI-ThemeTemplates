@@ -4,8 +4,9 @@
 		"scatterChart": {
 			"*": {
 				"general": [{
+					"dataVolume": 10000,
 					"responsive": true,
-					"dataVolume": 10000
+					"keepLayerOrder": true
 				}],
 				"legend": [{
 					"show": true,

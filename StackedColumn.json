@@ -4,7 +4,8 @@
 		"columnChart": {
 			"*": {
 				"general": [{
-					"responsive": true
+					"responsive": true,
+					"keepLayerOrder": true
 				}],
 				"legend": [{
 					"show": true,
@@ -30,7 +31,11 @@
 					"titleColor": { "solid": { "color": "#01B8AA"}},
 					"titleText": "asdf",
 					"titleFontSize": 12,
-					"titleFontFamily": "Segoe UI"
+					"titleFontFamily": "Segoe UI",
+					"gridlineShow": true,
+					"gridlineColor": { "solid": { "color": "#E900FE"}},
+					"gridlineThickness": 2,
+					"gridlineStyle": "dashed"
 				}],
 				"valueAxis": [{
 					"show": true,
@@ -45,12 +50,12 @@
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"color": { "solid": { "color": "01B8AA"}},
+					"titleColor": { "solid": { "color": "#01B8AA"}},
 					"titleText": "asdf",
 					"titleFontSize": 12,
 					"titleFontFamily": "Courier New",
 					"gridlineShow": true,
-					"gridlineColor": { "solid": { "color": "#01B8AA"}},
+					"gridlineColor": { "solid": { "color": "#E900FE"}},
 					"gridlineThickness": 2,
 					"gridlineStyle": "dashed"
 				}],
