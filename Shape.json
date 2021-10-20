@@ -3,6 +3,9 @@
 	"visualStyles": {
 		"shape": {
 			"*": {
+				"general": [{
+					"keepLayerOrder": true
+				}],
 				"line": [{
 					"lineColor": { "solid": { "color": "#01B8AA"}},
 					"transparency": 0,

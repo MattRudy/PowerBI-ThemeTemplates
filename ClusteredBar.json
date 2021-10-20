@@ -4,7 +4,8 @@
 		"clusteredBarChart": {
 			"*": {
 				"general": [{
-					"responsive": true
+					"responsive": true,
+					"keepLayerOrder": true
 				}],
 				"legend": [{
 					"show": true,

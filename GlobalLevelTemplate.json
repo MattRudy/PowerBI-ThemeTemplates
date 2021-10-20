@@ -3,6 +3,9 @@
 	"visualStyles": {
         "*": {
             "*": {
+                "general": [{
+					"keepLayerOrder": true
+				}],
                 "title": [{
                     "show": true,
                     "fontColor": { "solid": { "color": "#cc6600" } },
