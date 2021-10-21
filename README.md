@@ -78,7 +78,7 @@ If you have a question or find an issue, you can [Create a new issue].
 1. Theme samples to solve specific problems such as adding outlines or hiding visual headers on every visual (You can find these samples in [mattrudy/PowerBIThemeSolutions])
 1. JSON file generator for anyone who doesn't want to write their own JSON file (You can use the [JSON Generator from PowerBI.Tips])
 
-[View the FAQ]: /FAQ.md
+[View the FAQ]: https://github.com/MattRudy/PowerBI-ThemeTemplates/blob/master/FAQ.md
 [Create a new issue]: https://github.com/MattRudy/PowerBI-ThemeTemplates/issues/new
 [Microsoft's official themes gallery]: https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery
 [mattrudy/PowerBIThemeSolutions]: https://github.com/MattRudy/PowerBIThemeSolutions
