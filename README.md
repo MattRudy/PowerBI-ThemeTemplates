@@ -1,5 +1,6 @@
 # Power BI Theme Templates
 [![Validate JSONs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml/badge.svg?branch=master)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml)
+[![Monitor Document Links](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-monitor-docs.yml/badge.svg?branch=master)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-monitor-docs.yml)
 ### Snippets for assembling Power BI Themes
 
 #### [Get them here](https://github.com/mattrudy/PowerBI-ThemeTemplates) or view the visual list below
