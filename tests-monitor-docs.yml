@@ -1,0 +1,26 @@
+name: Monitor Docs
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow every monday at 9 am MT
+  schedule:
+    - cron: "0 15 * * 1"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  markdown-link-check:
+    name: Broken Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+        with:
+          submodules: recursive
+      - name: Monitor Links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1.0.13
+        with:
+          use-quiet-mode: 'no'
+          use-verbose-mode: 'yes'
