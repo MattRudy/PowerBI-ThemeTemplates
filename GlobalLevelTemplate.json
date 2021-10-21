@@ -1,5 +1,27 @@
 {
 	"name": "GlobalLevelTemplate",
+    "textClasses": {
+        "callout": {
+            "fontSize": 45,
+            "fontFace": "DIN",
+            "color": "#252423"
+        },
+        "title": {
+            "fontSize": 18,
+            "fontFace": "DIN",
+            "color": "#252423"
+        },
+        "header": {
+            "fontSize": 12,
+            "fontFace": "Segoe UI Semibold",
+            "color": "#252423"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#252423"
+        }
+    },
 	"visualStyles": {
         "*": {
             "*": {
