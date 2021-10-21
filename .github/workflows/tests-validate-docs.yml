@@ -22,7 +22,7 @@ jobs:
         with:
           submodules: recursive
       - name: Test Links
-        uses: gaurav-nelson/github-action-markdown-link-check@v1.0.13
+        uses: gaurav-nelson/github-action-markdown-link-check@1.0.13
         with:
           use-quiet-mode: 'no'
           use-verbose-mode: 'yes'
