@@ -33,7 +33,7 @@ Adjust titles, backgrounds, report page tooltips, wallpaper, and more for some o
 - [Card](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/Card.json)
 - [Clustered Bar Chart](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/ClusteredBar.json)
 - [Clustered Column Chart](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/ClusteredColumn.json)
-- [Decomposition Tree](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/DeconpositionTree.json)
+- [Decomposition Tree](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/DecompositionTree.json)
 - [Donut Chart](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/Donut.json)
 - [Esri ArcGIS Map](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/EsriArcGisMap.json)
 - [Filled Map](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/FilledMap.json)
