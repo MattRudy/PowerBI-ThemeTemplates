@@ -16,4 +16,10 @@ Contribution guidelines will be added shortly. In the meantime, fork this repo, 
 
 Github does not have an easy way to steer users to the latest active fork. Several experiments have been done that show users get confused with the 'forked from username/repositoryname' link at the top of a forked repository, and often create issues or PRs against the original, inactive repository. Splitting this repository was done intentionally to keep the collaboration in an active repository.
 
+## What are the known issues with Power BI Theme Templates?
+
+These are the items that cannot be controlled through a JSON template:
+* Slicer
+  * 'Search' can never be toggled on or off by default, the related parameter is selfFilterEnabled (see issue #64)
+
 [create a new issue]: https://github.com/MattRudy/PowerBI-ThemeTemplates/issues/new
