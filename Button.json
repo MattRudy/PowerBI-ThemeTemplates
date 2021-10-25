@@ -40,6 +40,10 @@
 				{
 					"$id": "selected",
 					"weight": 5
+                },
+				{
+					"$id": "disabled",
+					"weight": 5
                 }],
                 "fill": [{
 					"show": true
@@ -58,6 +62,11 @@
 					"$id": "selected",
 					"transparency": 0,
 					"fillColor": {"solid":{"color":"#3643AC"}}
+                },
+				{
+					"$id": "disabled",
+					"transparency": 0,
+					"fillColor": {"solid":{"color":"#E044A7"}}
                 }],
                 "icon": [{
 					"show": true
@@ -72,6 +81,10 @@
 				},
 				{
 					"$id": "selected",
+					"lineColor": {"solid":{"color":"#1A5741"}}
+				},
+				{
+					"$id": "disabled",
 					"lineColor": {"solid":{"color":"#1A5741"}}
 				}],
                 "text": [{
@@ -89,6 +102,11 @@
 				},
 				{
 					"$id": "selected",
+					"fontColor": {"solid":{"color":"#FFFFFF"}},
+					"horizontalAlignment": "center"
+				},
+				{
+					"$id": "disabled",
 					"fontColor": {"solid":{"color":"#FFFFFF"}},
 					"horizontalAlignment": "center"
 				}]

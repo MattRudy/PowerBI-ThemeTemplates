@@ -71,10 +71,26 @@
                     "name": "None"
                 }],
                 "visualHeader": [{
+					"show": false,
                     "foreground": { "solid": { "color": "#cc6600" } },
                     "border": { "solid": { "color": "#333333" } },
-                    "showTooltipButton": true
-                }],
+					"background": { "solid": { "color": "#444444"}},
+					"transparency": "20D",
+					"showVisualInformationButton": false,
+					"showVisualWarningButton": false,
+					"showVisualErrorButton": false,
+					"showDrillRoleSelector": false,
+					"showDrillUpButton": false,
+					"showDrillToggleButton": false,
+					"showDrillDownLevelButton": false,
+					"showDrillDownExpandButton": false,
+					"showPinButton": false,
+					"showFocusModeButton": false,
+					"showFilterRestatementButton": false,
+					"showSeeDataLayoutToggleButton": false,
+					"showOptionsMenu": false,
+					"showTooltipButton": false
+				}],
                 "visualHeaderTooltip": [{
                     "text": "Header tooltip text",
                     "titleFontColor": { "solid": { "color": "#cc6600" } },
