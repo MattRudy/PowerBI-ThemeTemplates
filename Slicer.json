@@ -38,6 +38,9 @@
 				}],
 				"background" : [{
 					"transparency": 100
+				}],
+				"visualHeader": [{
+					"show": false
 				}]
 			}
 		}
