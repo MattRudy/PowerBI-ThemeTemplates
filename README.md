@@ -79,7 +79,18 @@ If you have a question or find an issue, you can [Create a new issue].
 1. Theme samples to solve specific problems such as adding outlines or hiding visual headers on every visual (You can find these samples in [mattrudy/PowerBIThemeSolutions])
 1. JSON file generator for anyone who doesn't want to write their own JSON file (You can use the [JSON Generator from PowerBI.Tips])
 
+## Contributors
+This project is only possible thanks to the contributions of the community - below is a small set of the people who have made this possible! We're also very thankful to everyone who's written blog posts with useful samples, created issues, or suggested enhancements to this repository, or helped spread the word about this resource!
+Want to see your name in this list? Check out the 'How Can I Contribute' section in the [Contribution Guidelines] to get started!
+
+<a href="https://github.com/mattrudy/powerbi-themetemplates/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mattrudy/powerbi-themetemplates" />
+</a>
+
+_Contribution list made with [contrib.rocks](https://contrib.rocks)._
+
 [View the FAQ]: https://github.com/MattRudy/PowerBI-ThemeTemplates/blob/master/FAQ.md
+[Contribution Guidelines]: https://github.com/MattRudy/PowerBI-ThemeTemplates/blob/master/CONTRIBUTING.md#how-can-i-contribute
 [Create a new issue]: https://github.com/MattRudy/PowerBI-ThemeTemplates/issues/new
 [Microsoft's official themes gallery]: https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery
 [mattrudy/PowerBIThemeSolutions]: https://github.com/MattRudy/PowerBIThemeSolutions
