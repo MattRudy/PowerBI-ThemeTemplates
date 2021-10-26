@@ -1,0 +1,18 @@
+name: 'Housekeeping - Welcome New Contributors'
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome-new-contributor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Greet the contributor'
+        uses: garg3133/welcome-new-contributors@v1.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: 'Hey @contributor_name! Thanks for opening your first issue. We appreciate your contribution to this project! One of our project maintainers will review this soon.'
+          pr-message: 'Hi @contributor_name! Thank you for opening your first Pull Request. Please add any information we might need in the comments, make sure any issues you are resolving are linked ( [what is this?](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) ), and one of our project maintainers will review it soon. Thank you for making Power BI Theme Templates better!'
