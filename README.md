@@ -71,8 +71,8 @@ For questions not answered here, you can [View the FAQ].
 If you have a question or find an issue, you can [Create a new issue].
 
 ### Areas considered "In-Scope" for this repository:
-1. one global-level theme template to help understand global-level settings
-1. one template per available visual, covering all default Power BI visuals as well as many custom visuals, to help understand visual-level settings
+1. one global-level theme template to help understand global-level settings.
+1. one template per available visual, covering all default Power BI visuals as well as many custom visuals, to help understand visual-level settings.
 
 ### Areas considered "Out-of-Scope" for this repository:
 1. pre-built color themes (You can find these in [Microsoft's official themes gallery])
