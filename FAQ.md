@@ -11,7 +11,7 @@ You can [create a new issue] in this repository to get a response from someone i
 ## How do you find theme properties?
 
 It's possible to explore a Power BI Desktop file on your local computer to see the properties that are set, even if they aren't documented by Microsoft yet.
-Check out [This great article](https://nolock.medium.com/how-to-discover-undocumented-theme-settings-in-power-bi-desktop-dcbe264351c8) for a guide on how to extract these properties.
+Check out [this great article](https://nolock.medium.com/how-to-discover-undocumented-theme-settings-in-power-bi-desktop-dcbe264351c8) for a guide on how to extract these properties.
 
 ## I want to help add to this project, how do I get started?
 
