@@ -66,6 +66,10 @@ Adjust titles, backgrounds, report page tooltips, wallpaper, and more for some o
 - [Treemap](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/Treemap.json)
 - [Waterfall](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/Waterfall.json)
 
+## How do you find theme properties?
+It's possible to explore a Power BI Desktop file on your local computer to see the properties that are set, even if they aren't documented by Microsoft yet.
+Check out [This great article](https://nolock.medium.com/how-to-discover-undocumented-theme-settings-in-power-bi-desktop-dcbe264351c8) for a guide on how to extract these properties.
+
 ## About this repository:
 For questions not answered here, you can [View the FAQ].  
 If you have a question or find an issue, you can [Create a new issue].
