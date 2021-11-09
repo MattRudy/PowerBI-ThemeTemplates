@@ -19,4 +19,4 @@ jobs:
           dry-run: "false"
           aggregate: "true"
           lastTime: "720h"
-          titleFilter: /!(Power BI.*20.*Feature Summary)/
+          titleFilter: (!Power BI.*20.*Feature Summary)
