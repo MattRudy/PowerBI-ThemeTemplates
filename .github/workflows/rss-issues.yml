@@ -1,0 +1,22 @@
+name: Monitor RSS
+
+on:
+  schedule:
+    # Run this Action every day at 1:00am and 1:00pm UTC
+    - cron: "0 1,13 * * *"
+  workflow_dispatch:
+
+jobs:
+  pbi-monthly-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: git-for-windows/rss-to-issues@v0.0.3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://powerbi.microsoft.com/en-us/blog/feed/"
+          prefix: "[PBI-UPDATE]"
+          character-limit: 255
+          dry-run: false
+          max-age: 720h
+          labels: pbi-update
+          title-pattern: (Power BI.*20.*Feature Summary)
