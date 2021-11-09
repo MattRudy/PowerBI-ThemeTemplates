@@ -21,12 +21,12 @@ The purpose of this repository is to provide detail-level reference for each nat
 
 Please note that the values in these sample files will appear *ugly*. Many values are not Power BI's defaults. As soon as something worked, I moved on to the next property. Please modify or remove properties in your own theme file to be what you desire.
 
-### Global Level Template
+## Global Level Template 🌎
 Adjust titles, backgrounds, report page tooltips, wallpaper, and more for some or all visuals on a page or all pages.
 
 - [Global Level](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/GlobalLevelTemplate.json)
 
-### Available Visuals  
+## Available Visuals 📊
 
 - [Area Chart](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/Area.json)
 - [Azure Map](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/AzureMap.json)  
@@ -66,24 +66,40 @@ Adjust titles, backgrounds, report page tooltips, wallpaper, and more for some o
 - [Treemap](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/Treemap.json)
 - [Waterfall](https://github.com/mattrudy/PowerBI-ThemeTemplates/blob/master/Waterfall.json)
 
-## How do you find theme properties?
+## How do you find theme properties? 🔍
 It's possible to explore a Power BI Desktop file on your local computer to see the properties that are set, even if they aren't documented by Microsoft yet.
 Check out [this great article](https://nolock.medium.com/how-to-discover-undocumented-theme-settings-in-power-bi-desktop-dcbe264351c8) for a guide on how to extract these properties.
 
-## About this repository:
+## About this repository: ❔
 For questions not answered here, you can [View the FAQ].  
 If you have a question or find an issue, you can [Create a new issue].
 
-### Areas considered "In-Scope" for this repository:
+### Areas considered "In-Scope" for this repository: ✅
 1. one global-level theme template to help understand global-level settings.
 1. one template per available visual, covering all default Power BI visuals as well as many custom visuals, to help understand visual-level settings.
 
-### Areas considered "Out-of-Scope" for this repository:
+### Areas considered "Out-of-Scope" for this repository: 🚫
 1. pre-built color themes (You can find these in [Microsoft's official themes gallery])
 1. Theme samples to solve specific problems such as adding outlines or hiding visual headers on every visual (You can find these samples in [mattrudy/PowerBIThemeSolutions])
 1. JSON file generator for anyone who doesn't want to write their own JSON file (You can use the [JSON Generator from PowerBI.Tips])
 
-## Contributors
+## CI/CD and Automation 🤖
+There are several helpful levels of automation that help this project stay valid over time.
+
+When someone new adds an Issue or Pull Request to the project:
+* They are greeted, thanked, and pointed to helpful links ([see the action logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/housekeeping-welcome-contributors.yml))
+
+When a template or file is added/edited:
+* The JSON is scanned to make sure it's valid ([see the test logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-docs.yml))
+* Any hyperlinks are tested to ensure they are valid ([see the test logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml))
+
+Every 12 hours:
+* Microsoft's blog feed is scanned to check for a new Power BI Monthly Update, and if there is an issue is created to check for new visuals or properties. ([see the scan logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/rss-issues.yml))
+
+Once a week:
+* All hyperlinks on all pages are checked to make sure no links have broken ([see the test logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-monitor-docs.yml))
+
+## Contributors 👩‍🔬
 This project is only possible thanks to the contributions of the community - below is a small set of the people who have made this possible! We're also very thankful to everyone who's written blog posts with useful samples, created issues, or suggested enhancements to this repository, or helped spread the word about this resource!
 Want to see your name in this list? Check out the 'How Can I Contribute' section in the [Contribution Guidelines] to get started!
 
