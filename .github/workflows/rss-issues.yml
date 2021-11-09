@@ -14,7 +14,6 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://powerbi.microsoft.com/en-us/blog/feed/"
           prefix: "[PBI-UPDATE]"
-          lastTime: "360h"
           labels: "rss/PowerBIFeatureSummary"
           characterLimit: "255"
           dry-run: "false"
