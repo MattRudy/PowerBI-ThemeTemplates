@@ -17,5 +17,6 @@ jobs:
           labels: "rss/PowerBIFeatureSummary"
           characterLimit: "255"
           dry-run: "false"
+          aggregate: "true"
           lastTime: "720h"
-          titleFilter: "/!(Power BI.*20.*Feature Summary)/"
+          titleFilter: /!(Power BI.*20.*Feature Summary)/
