@@ -87,17 +87,25 @@ If you have a question or find an issue, you can [Create a new issue].
 There are several helpful levels of automation that help this project stay valid over time.
 
 When someone new adds an Issue or Pull Request to the project:
-* They are greeted, thanked, and pointed to helpful links ([see the action logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/housekeeping-welcome-contributors.yml))
+| Link to Action | Description |
+|:---:|:---:|
+|[![Housekeeping - Welcome New Contributors](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/housekeeping-welcome-contributors.yml/badge.svg)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/housekeeping-welcome-contributors.yml)| They are greeted, thanked, and pointed to helpful links |
 
 When a template or file is added/edited:
-* The JSON is scanned to make sure it's valid ([see the test logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-docs.yml))
-* Any hyperlinks are tested to ensure they are valid ([see the test logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml))
+| Link to Action | Description |
+|:---:|:---:|
+|[![Validate Docs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-docs.yml/badge.svg)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-docs.yml)| Any hyperlinks are tested to make sure they are valid |
+|[![Validate JSONs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml/badge.svg)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml)| Any JSON files are scanned to make sure they are valid |
 
 Every 12 hours:
-* Microsoft's blog feed is scanned to check for a new Power BI Monthly Update, and if there is an issue is created to check for new visuals or properties. ([see the scan logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/rss-issues.yml))
+| Link to Action | Description |
+|:---:|:---:|
+|[![Monitor RSS](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/rss-issues.yml/badge.svg)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/rss-issues.yml)| Microsoft's blog feed is scanned to check for a new Power BI Monthly Update, and if there is an issue is created to check for new visuals or properties. |
 
 Once a week:
-* All hyperlinks on all pages are checked to make sure no links have broken ([see the test logs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-monitor-docs.yml))
+| Link to Action | Description |
+|:---:|:---:|
+|[![Monitor Docs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-monitor-docs.yml/badge.svg)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-monitor-docs.yml)| All hyperlinks on all pages are checked to make sure no links have broken |
 
 ## Contributors 👩‍🔬
 This project is only possible thanks to the contributions of the community - below is a small set of the people who have made this possible! We're also very thankful to everyone who's written blog posts with useful samples, created issues, or suggested enhancements to this repository, or helped spread the word about this resource!
