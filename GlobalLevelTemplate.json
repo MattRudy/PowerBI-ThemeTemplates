@@ -43,6 +43,18 @@
                 "general": [{
 					"keepLayerOrder": true
 				}],
+                "legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"labelColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Courier New",
+					"fontSize": 10,
+					"legendMarkerRendering": "markerOnly",
+					"matchLineColor": false,
+					"defaultToCircle": false
+				}],
                 "title": [{
                     "show": true,
                     "fontColor": { "solid": { "color": "#cc6600" } },

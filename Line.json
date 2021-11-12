@@ -16,7 +16,8 @@
 					"fontFamily": "Courier New",
 					"fontSize": 10,
 					"legendMarkerRendering": "markerOnly",
-					"matchLineColor": false
+					"matchLineColor": false,
+					"defaultToCircle": false
 				}],
 				"categoryAxis": [{
 					"show": true,
