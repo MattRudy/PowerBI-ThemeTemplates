@@ -17,6 +17,21 @@
 					"show": true,
 					"radius": 0
 				}],
+				"dropShadow": [{
+					"show": true,
+					"angle": 45,
+					"color": {
+					    "solid": {
+						"color": "#666666"
+					    }
+					},
+					"position": "Outside",
+					"preset": "Custom",
+					"shadowBlur": 0,
+					"shadowDistance": 5,
+					"shadowSpread": 1,
+					"transparency": 70
+				}],
 				"title": [{
 					"show": true,
 					"fontColor": { "solid": { "color": "#000000" } },
@@ -25,6 +40,7 @@
 				}],
 				"indicator": [{
 					"indicatorDisplayUnits": "Auto",
+					"fontSize": 20,
 					"indicatorPrecision": 1,
 					"showIcon": true,
 					"iconSize": 15,
