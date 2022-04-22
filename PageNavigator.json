@@ -1,0 +1,23 @@
+{
+	"name": "Page Navigator",
+	"visualStyles": {
+        "pageNavigator": {
+            "*": {
+                "layout": [{
+					"orientation": "horizontal"
+
+				}],
+                "border": [
+                    {
+                        "show": false,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+	}
+}
