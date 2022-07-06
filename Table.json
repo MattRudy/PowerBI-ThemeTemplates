@@ -40,6 +40,8 @@
 					"fontColor": { "solid": { "color": "#00B8DD"}},
 					"backColor": { "solid": { "color": "#00AA22"}},
 					"outline": "Frame",
+					"outlineWeight": 1,
+                        		"outlineColor": { "solid": { "color": "#657C91"}},
 					"autoSizeColumnWidth": true,
 					"fontFamily": "Courier New",
 					"fontSize": 12,
