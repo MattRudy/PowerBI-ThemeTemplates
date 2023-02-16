@@ -122,4 +122,4 @@ _Contribution list made with [contrib.rocks](https://contrib.rocks)._
 [Create a new issue]: https://github.com/MattRudy/PowerBI-ThemeTemplates/issues/new
 [Microsoft's official themes gallery]: https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery
 [mattrudy/PowerBIThemeSolutions]: https://github.com/MattRudy/PowerBIThemeSolutions
-[JSON Generator from PowerBI.Tips]: https://themes.powerbi.tips/properties
+[JSON Generator from PowerBI.Tips]: https://themes.powerbi.tips/themes/palette
