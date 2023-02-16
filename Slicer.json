@@ -6,7 +6,7 @@
 				"general": [{
 					"outlineColor": { "solid": { "color": "#444444"}},
 					"outlineWeight": 1,
-					"orientation": "vertical",
+					"orientation": 1,
 					"keepLayerOrder": true
 				}],
 				"data": [{
