@@ -81,7 +81,7 @@ If you have a question or find an issue, you can [Create a new issue].
 ### Areas considered "Out-of-Scope" for this repository: 🚫
 1. pre-built color themes (You can find these in [Microsoft's official themes gallery])
 1. Theme samples to solve specific problems such as adding outlines or hiding visual headers on every visual (You can find these samples in [mattrudy/PowerBIThemeSolutions])
-1. JSON file generator for anyone who doesn't want to write their own JSON file (You can use the [JSON Generator from PowerBI.Tips])
+1. JSON file generator for anyone who doesn't want to write their own JSON file (You can use the [JSON Generator from PowerBI.Tips](https://themes.powerbi.tips))
 
 ## CI/CD and Automation 🤖
 There are several helpful levels of automation that help this project stay valid over time.
