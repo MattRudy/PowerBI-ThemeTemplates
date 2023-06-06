@@ -89,7 +89,7 @@
 					"perRowLevel": true,
 					"perColumnLevel": true					
 				}],
-				"total": [{
+				"rowTotal": [{
 					"fontColor": { "solid": { "color": "#00B8DD"}},
 					"fontFamily": "Courier New",
 					"backColor": { "solid": { "color": "#00AA22"}},
